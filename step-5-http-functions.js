@@ -13,8 +13,3 @@ module.exports = function getHTML (options, callback) {
   })
 }
 
-var requestOptions = {
-  host: 'sytantris.github.io',
-  path: '/http-examples/step4.html'
-};
-
