@@ -2,12 +2,12 @@ var getHTML = require('../step-5-http-functions');
 
 var requestOptions = {
   host: 'sytantris.github.io',
-  path: '/http-examples/step6/reversecase.html'
+  path: '/http-examples/step6/reverse.html'
 };
 
 function printReverse (html) {
-
-  /* Write your code here! */
+  var reverseElements = html.join('').split('').reverse()
+  console.log(reverseElements.join(''));
 
 }
 
